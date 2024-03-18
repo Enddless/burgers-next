@@ -1,0 +1,6 @@
+.products {
+  background-image: url('/burgers_bg.png');
+}
+.button.product-button {
+  @apply flex items-center justify-center gap-2 w-48 h-16;
+}
