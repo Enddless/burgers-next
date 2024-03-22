@@ -3,10 +3,12 @@ import './styles.css';
 
 export default function WhySection() {
   return (
-    <section className='why bg-no-repeat bg-center bg-cover pb-44' id='why'>
+    <section
+      className='why flex justify-center bg-no-repeat bg-center bg-cover pb-44'
+      id='why'>
       <div className='container'>
         <div className='why-title common-title'>Почему нас выбирают</div>
-        <div className='mt-14 grid gap-24 grid-cols-3 justify-center'>
+        <div className='mt-14  flex flex-col gap-y-7 md:grid md:gap-7 lg:gap-24 grid-cols-3 justify-center'>
           <div className='text-center'>
             <Image
               src='/burger.png'

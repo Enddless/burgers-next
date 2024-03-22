@@ -15,19 +15,21 @@ export default function OrderSection() {
   };
 
   return (
-    <section className='order bg-center bg-no-repeat pb-44 overflow-hidden' id='order'>
-      <div className='container relative'>
+    <section
+      className='order flex justify-center  bg-center bg-no-repeat pb-44 overflow-hidden'
+      id='order'>
+      <div className='container flex flex-col lg:relative'>
         <div className='order-title common-title'>Оформление заказа</div>
         <Image
           src='/order_image.png'
           alt='order'
-          className='absolute top-0 -left-60  -z-[1]'
+          className='hidden md:block md:relative md:order-2 lg:absolute lg:top-0 lg:-left-60  lg:-z-[1]'
           width={1046}
           height={867}
           priority
         />
 
-        <div className='rounded-2xl bg-custom-black border border-solid border-custom-black mt-14 w-2/5 py-14 px-10 box-border relative left-2/4 flex flex-col items-center'>
+        <div className='order-1 lg:relative rounded-2xl bg-custom-black border border-solid border-custom-black mt-14 lg:w-2/4 py-14 px-10 box-border  left-2/4 flex flex-col items-center'>
           <div className='text-2xl text-center'>
             Заполните все данные и наш менеджер свяжется с вами для подтверждения заказа
           </div>

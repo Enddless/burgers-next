@@ -18,10 +18,12 @@ export default function ProductsSection() {
   }
 
   return (
-    <section className='products bg-no-repeat bg-center bg-contain pb-44' id='products'>
+    <section
+      className='products flex justify-center  bg-no-repeat bg-center bg-contain pb-44'
+      id='products'>
       <div className='container'>
         <div className='products-title common-title'>выберите свой бургер</div>
-        <div className='grid grid-cols-3 gap-6 mt-14'>
+        <div className='flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14'>
           {products.map((product) => {
             return (
               <div
@@ -37,8 +39,10 @@ export default function ProductsSection() {
                     loader={() => product.image}
                   />
                 </div>
-                <div className='text-2xl my-6'>{product.title}</div>
-                <div className='text-base h-28'>{product.text}</div>
+                <div className='text-lg lg:text-xl xl:text-2xl my-6'>{product.title}</div>
+                <div className='text-base h-28 md:h-32 lg:h-36 xl:h-28'>
+                  {product.text}
+                </div>
                 <div className='flex justify-between'>
                   <div className='products-item-info'>
                     <div

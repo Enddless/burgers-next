@@ -33,8 +33,8 @@ export default function Header() {
     }
   };
   return (
-    <header className='py-10 px-10 z-10'>
-      <div className='container flex items-center'>
+    <header className='py-10 px-10 z-10 '>
+      <div className='flex justify-between items-center'>
         <div className='logo'>
           <Image
             src='/Logo.png'
@@ -45,19 +45,19 @@ export default function Header() {
             priority
           />
         </div>
-        <nav className='ml-48'>
-          <ul className='list-none flex gap-x-20'>
-            <li className='font-semibold text-xl  text-white no-underline  hover:border-b-2 border-transparent border-b-2'>
+        <nav className='hidden md:block'>
+          <ul className='list-none flex  md:gap-x-5 lg:gap-x-20'>
+            <li className='font-semibold text-sm md:text-lg lg:text-xl  text-white no-underline  hover:border-b-2 border-transparent border-b-2'>
               <Link href='#why' data-link='why' className='cursor-pointer'>
                 Почему у нас
               </Link>
             </li>
-            <li className='font-semibold text-xl text-white no-underline hover:border-b-2 border-transparent border-b-2'>
+            <li className='font-semibold text-sm md:text-lg lg:text-xl text-white no-underline hover:border-b-2 border-transparent border-b-2'>
               <Link href='#products' data-link='products' className='cursor-pointer'>
                 Меню бургеров
               </Link>
             </li>
-            <li className='font-semibold text-xl text-white no-underline hover:border-b-2 border-transparent border-b-2'>
+            <li className='font-semibold text-sm md:text-lg lg:text-xl text-white no-underline hover:border-b-2 border-transparent border-b-2'>
               <Link href='#order' data-link='order' className='cursor-pointer'>
                 Оформление заказа
               </Link>
@@ -65,7 +65,7 @@ export default function Header() {
           </ul>
         </nav>
         <div
-          className='border border-solid border-white py-2.5 box-border rounded-md w-11 y-11 text-center cursor-pointer ml-auto text-lg select-none'
+          className='border border-solid border-white py-2.5 box-border rounded-md w-11 y-11 text-center cursor-pointer text-lg select-none'
           title='Изменить валюту'
           id='change-currency'
           onClick={changeCurrency}>
