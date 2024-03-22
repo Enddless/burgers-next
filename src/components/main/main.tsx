@@ -8,7 +8,7 @@ export default function Main() {
       <div className='relative flex flex-col md:block'>
         <div className='order-2 md:max-w-xs  lg:max-w-xl'>
           <div className='flex flex-col sm:gap-y-5 md:gap-y-14 items-start'>
-            <span className='bg-red-600 rounded-full py-3 px-4 inline-block text-lg'>
+            <span className='bg-red-600 rounded-full py-3 px-4 inline-block text-lg cursor-pointer'>
               Новое меню
             </span>
             <h1 className='main-title font-black text-3xl md:text-7xl lg:text-8xl tracking-widest uppercase '>
