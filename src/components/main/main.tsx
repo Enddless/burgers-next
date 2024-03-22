@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import './styles.css';
+import Link from 'next/link';
 
 export default function Main() {
   return (
-    <section className='pt-24 pb-48'>
+    <section className='pt-32 px-10 pb-48'>
       <div className='relative'>
         <div className='max-w-screen-sm'>
           <span className='bg-red-600 rounded-full py-3 px-4 inline-block text-lg'>
@@ -19,9 +20,11 @@ export default function Main() {
               отборной мраморной говядины.
             </p>
             <div className='main-action'>
-              <button className='button' id='main-action-button'>
-                Смотреть меню
-              </button>
+              <Link href='#products'>
+                <button className='button' id='main-action-button'>
+                  Смотреть меню
+                </button>
+              </Link>
             </div>
           </div>
         </div>

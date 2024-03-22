@@ -26,7 +26,7 @@ const config: Config = {
       },
       width: {
         'custom-width-input-wrapper': '344px',
-        'custom-width-input': '342px'
+        'custom-width-input': '341px'
       }
     }
   },
