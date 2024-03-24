@@ -12,8 +12,7 @@ const nextConfig = {
     unoptimized: true,
     domains: ['localhost']
   },
-  basePath: '/burgers-next',
-  assetPrefix: '/'
+  basePath: '/burgers-next'
 };
 
 export default nextConfig;
