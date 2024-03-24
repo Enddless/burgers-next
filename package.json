@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages deploy"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.28.4",
