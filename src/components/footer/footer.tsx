@@ -6,7 +6,7 @@ export default function Footer() {
       <div className='flex items-center justify-between'>
         <div className='logo'>
           <Image
-            src='/Logo.png'
+            src='/burgers-next/Logo.png'
             alt='Logo'
             className='dark:invert'
             width={157}

@@ -21,7 +21,7 @@ export default function OrderSection() {
       <div className='container flex flex-col lg:relative'>
         <div className='order-title common-title'>Оформление заказа</div>
         <Image
-          src='/order_image.png'
+          src='/burgers-next/order_image.png'
           alt='order'
           className='hidden md:block md:relative md:order-2 lg:absolute lg:top-0 lg:-left-60  lg:-z-[1]'
           width={1046}

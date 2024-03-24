@@ -37,7 +37,7 @@ export default function Header() {
       <div className='flex justify-between items-center'>
         <div className='logo'>
           <Image
-            src='/Logo.png'
+            src='/burgers-next/Logo.png'
             alt='Logo'
             className='align-bottom cursor-pointer'
             width={157}

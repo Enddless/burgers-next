@@ -11,7 +11,7 @@ export default function WhySection() {
         <div className='mt-14  flex flex-col gap-y-7 md:grid md:gap-7 lg:gap-24 grid-cols-3 justify-center'>
           <div className='text-center'>
             <Image
-              src='/burger.png'
+              src='/burgers-next/burger.png'
               alt='burger'
               className='mx-auto'
               width={100}
@@ -27,7 +27,7 @@ export default function WhySection() {
           </div>
           <div className='text-center'>
             <Image
-              src='/meat.png'
+              src='/burgers-next/meat.png'
               alt='meat'
               className='mx-auto'
               width={100}
@@ -42,7 +42,7 @@ export default function WhySection() {
           </div>
           <div className='text-center'>
             <Image
-              src='/truck.png'
+              src='/burgers-next/truck.png'
               alt='truck'
               className='mx-auto'
               width={100}

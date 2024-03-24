@@ -1,5 +1,5 @@
 .order {
-  background-image: url('/order_bg.png');
+  background-image: url('/burgers-next/order_bg.png');
 }
 .custom-width-button {
   @apply w-custom-width-input-wrapper;

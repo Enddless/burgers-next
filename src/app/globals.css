@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/Gilroy-Semibold.ttf');
+  src: url('/burgers-next/Gilroy-Semibold.ttf');
 }
 
 @font-face {
   font-family: 'Merriweather';
-  src: url('/Merriweather-Black.ttf');
+  src: url('/burgers-next/Merriweather-Black.ttf');
 }
 
 * {
@@ -56,7 +56,7 @@ body {
 }
 
 .main {
-  background-image: url('/main_bg.png');
+  background-image: url('/burgers-next/main_bg.png');
   background-repeat: no-repeat;
   background-position: top center;
   overflow: hidden;

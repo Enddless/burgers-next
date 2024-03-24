@@ -29,7 +29,7 @@ export default function Main() {
           </div>
         </div>
         <Image
-          src='/main_burger.png'
+          src='/burgers-next/main_burger.png'
           alt='big burger'
           className=' relative order-1 md:absolute md:-top-28 md:left-40 lg:-top-44 lg:left-64'
           width={1286}
